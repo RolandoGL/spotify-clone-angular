@@ -1,0 +1,102 @@
+.container{
+    background: linear-gradient(180deg, #ffffff2b 20%, #000000 50%);
+    /* width: 100vw; */
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-container{
+    background-color: #121212;
+    height: auto;
+    padding: 90px 150px 50px 150px;
+    margin: 50px auto;
+    border-radius: 10px;
+    width: 50%;
+    /* max-width: 90%; */
+    /* box-sizing: content-box; */
+}
+.form-container>h3{
+    font-size: 2.3rem;
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.separator{
+    height: 1.5px;
+    width: 100%;
+    background-color: #2a2929;
+    margin: 10px auto;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 70%;
+    margin: auto;
+    color: white;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+.social-media-container{
+    padding: 40px 30px;
+    gap: 10px;
+}
+.social-media-item>i{
+    font-size: 1.6rem;
+    /* color: #30e330; */
+}
+.form{
+    padding: 40px;
+    gap: 15px;
+    font-size: 0.9rem;
+}
+.form >label{
+    font-weight: bold;
+}
+
+.form>input{
+    padding: 13px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0.5px solid #ffffff;
+    color: #ffffff;
+    width: 90%;
+}
+
+.form>button{
+    background-color: #30e330;
+    color: #000000;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 20px auto;
+}
+
+.form>a{
+    color: rgb(255, 255, 255);
+    width: max-content;
+    margin: auto;
+}
+
+.span{
+    margin-top: 20px;
+}
+
+input.ng-invalid.ng-touched{
+    border: 2px solid red !important;
+}
+
+input.ng-valid.ng-touched{
+    border: 2px solid rgb(0, 255, 85) !important;
+}
